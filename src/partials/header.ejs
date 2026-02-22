@@ -1,0 +1,175 @@
+<header>
+  <div
+    id="header"
+    class="header headerAbsolute top-0 right-0 left-0 z-50 w-full"
+  >
+    <div
+      class="container flex items-center justify-between gap-6 py-4 sm:py-6 lg:py-4"
+    >
+      <a href="./index.html" class="block max-lg:w-20">
+        <img src="./assets/images/logo_black.png" alt="" />
+      </a>
+
+      <nav class="max-lg:hidden">
+        <ul
+          class="font-alexandria flex items-center justify-center gap-8 text-lg"
+        >
+          <li>
+            <a href="./">Home</a>
+          </li>
+          <li>
+            <a href="./about-us.html">About</a>
+          </li>
+          <li>
+            <a href="./destinations.html">Destination</a>
+          </li>
+          <li>
+            <a href="./blogs.html">Blog</a>
+          </li>
+          <li>
+            <a href="./contact-us.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center justify-start gap-6">
+        <div class="relative">
+          <div
+            class="selectItemArea flex cursor-pointer items-center justify-start gap-2"
+          >
+            <div class="flex items-center justify-start gap-2">
+              <img
+                src="./assets/images/flags/united_states.png"
+                alt=""
+                class="size-5"
+              />
+              <p class="selectedItem font-medium capitalize">en</p>
+            </div>
+            <i class="ph ph-caret-down text-base"></i>
+          </div>
+          <div
+            class="border-primary/10 selectItemModal invisible absolute end-0 top-10 z-20 w-40 translate-y-2 border bg-white opacity-0 duration-300"
+          >
+            <ul
+              class="flex max-h-37.5 flex-col gap-3 overflow-y-auto py-4 text-sm"
+            >
+              <li
+                class="item hover:text-secondary flex cursor-pointer items-center justify-start gap-2 px-4 duration-300"
+              >
+                <img
+                  src="./assets/images/flags/bangladesh.png"
+                  alt=""
+                  class="size-5"
+                />
+                Bangladesh
+              </li>
+
+              <li
+                class="item hover:text-secondary flex cursor-pointer items-center justify-start gap-2 px-4 duration-300"
+              >
+                <img
+                  src="./assets/images/flags/united_states.png"
+                  alt=""
+                  class="size-5"
+                />
+                United States
+              </li>
+              <li
+                class="item hover:text-secondary flex cursor-pointer items-center justify-start gap-2 px-4 duration-300"
+              >
+                <img
+                  src="./assets/images/flags/sweden.png"
+                  alt=""
+                  class="size-5"
+                />
+                Sweden
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="./sign-in.html" class="btn-secondary block max-lg:hidden"
+          >Sign in</a
+        >
+        <button class="mobile-menu-open lg:hidden">
+          <i class="ph ph-list text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Start -->
+  <div
+    class="mobile-menu border-primary/10 invisible fixed top-0 bottom-0 left-0 z-50 w-77.5 -translate-x-full overflow-y-auto border bg-white p-4 opacity-0 shadow-lg duration-500"
+  >
+    <div class="flex items-center justify-between">
+      <a href="./index.html" class="flex items-center justify-start gap-2">
+        <div class="">
+          <img src="./assets/images/logo_black.png" alt="" class="" />
+        </div>
+      </a>
+      <button
+        class="border-secondary mobile-menu-close text-secondary flex size-6 items-center justify-center rounded-full border"
+      >
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+
+    <ul class="text-n700 mt-8 flex flex-col space-y-3">
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./destinations.html">Destinations</a>
+      </li>
+      <li>
+        <a href="./blogs.html">Blog</a>
+      </li>
+      <li>
+        <a href="./contact-us.html">Contact</a>
+      </li>
+      <li class="flex items-start justify-start gap-2 pt-3">
+        <a
+          href="./sign-in.html"
+          class="bg-primary block rounded-xl px-4 py-2 max-sm:text-sm lg:px-6 lg:py-3 lg:text-lg"
+          >Sign in</a
+        >
+      </li>
+    </ul>
+
+    <div class="flex flex-col items-start justify-start pt-12">
+      <p>Follow Us -</p>
+      <div class="flex flex-wrap items-center justify-start gap-3 pt-4">
+        <a
+          href="/"
+          target="_blank"
+          class="text-secondary border-secondary flex size-10 items-center justify-center rounded-full border text-xl duration-500"
+        >
+          <i class="ph-fill ph-facebook-logo"></i>
+        </a>
+        <a
+          href="/"
+          target="_blank"
+          class="text-secondary border-secondary flex size-10 items-center justify-center rounded-full border text-xl duration-500"
+        >
+          <i class="ph-fill ph-x-logo"></i>
+        </a>
+        <a
+          href="/"
+          target="_blank"
+          class="text-secondary border-secondary flex size-10 items-center justify-center rounded-full border text-xl duration-500"
+        >
+          <i class="ph-fill ph-youtube-logo"></i>
+        </a>
+        <a
+          href="/"
+          target="_blank"
+          class="text-secondary border-secondary flex size-10 items-center justify-center rounded-full border text-xl duration-500"
+        >
+          <i class="ph-fill ph-pinterest-logo"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile Menu End -->
+</header>
