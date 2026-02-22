@@ -16,7 +16,7 @@ textSlider?.forEach((carousel) => {
   });
 });
 
-let testimonialSlider1 = document.querySelectorAll(".testimonial-slider");
+let testimonialSlider1 = document.querySelectorAll(".testimonial-slider-1");
 testimonialSlider1?.forEach((carousel) => {
   const swiper = new Swiper(carousel, {
     loop: true,
