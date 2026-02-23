@@ -1,5 +1,5 @@
-import Swiper from "swiper";
-import { Autoplay, Navigation, EffectFade, Pagination } from "swiper/modules";
+
+
 
 let testimonialSlider1 = document.querySelectorAll(".testimonial-slider");
 
