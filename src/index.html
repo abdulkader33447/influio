@@ -1773,7 +1773,7 @@
     <div class="relative max-w-7xl mx-auto rounded-3xl px-6 py-20 text-center overflow-hidden
               bg-linear-to-r from-blue-400 via-blue-300 to-blue-500">
 
-              <div class="absolute inset-0 "><img src="./assets/images/BG 01.png" alt=""></div>
+      <div class="absolute inset-0 "><img src="./assets/images/BG 01.png" alt=""></div>
 
       <!-- Vertical soft stripes overlay -->
       <div class="absolute inset-0 opacity-40"></div>
@@ -1831,8 +1831,111 @@
     </div>
   </section>
 
+  <!-- FAQ section -->
+
+  <section class="w-11/12 mx-auto p-6">
+
+    <div class="flex items-center justify-center gap-10 flex-col lg:flex-row">
+      <div>
+        <!-- Top Badge -->
+        <div class="inline-flex items-center gap-3 bg-white 
+                  border border-primary/40 text-primary 
+                  rounded-full px-5 py-2 text-sm font-medium">
+          <span class="flex items-center justify-center w-5 h-5 rounded-full bg-primary text-white text-xs">
+            ✓
+          </span>
+          <span>Need Help?</span>
+          <span class="text-gray-400">|</span>
+          <span class="text-gray-600">Questions & Answers</span>
+        </div>
+
+        <!-- Heading -->
+        <h2 class="mt-8 text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+          Get Support & Help
+        </h2>
+        <p class="mt-2 text-gray-700">Our FAQ section covers everything from account setup and campaign creation to payments and performance tracking.</p>
+      </div>
+
+      <!-- accordion -->
+      <div class="space-y-4" id="accordion">
+
+        <!-- Item -->
+        <div class="border border-gray-200 rounded-xl overflow-hidden">
+
+          <!-- Header -->
+          <button
+            class="accordion-header w-full flex justify-between items-center p-5 bg-white hover:bg-gray-50 transition">
+            <span class="font-medium text-gray-800">
+              What is your refund policy?
+            </span>
+
+            <svg class="accordion-icon w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <!-- Content -->
+          <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 bg-gray-50">
+            <div class="p-5 text-gray-600">
+              We offer a 30-day refund policy for all premium plans.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Item -->
+        <div class="border border-gray-200 rounded-xl overflow-hidden">
+          <button
+            class="accordion-header w-full flex justify-between items-center p-5 bg-white hover:bg-gray-50 transition">
+            <span class="font-medium text-gray-800">
+              How do I contact support?
+            </span>
+
+            <svg class="accordion-icon w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 bg-gray-50">
+            <div class="p-5 text-gray-600">
+              You can reach our support team 24/7 via email or live chat.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item -->
+        <div class="border border-gray-200 rounded-xl overflow-hidden">
+          <button
+            class="accordion-header w-full flex justify-between items-center p-5 bg-white hover:bg-gray-50 transition">
+            <span class="font-medium text-gray-800">
+              How do I contact support?
+            </span>
+
+            <svg class="accordion-icon w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 bg-gray-50">
+            <div class="p-5 text-gray-600">
+              You can reach our support team 24/7 via email or live chat.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
   <script src="./assets/script/menu.js"></script>
   <script src="./assets/script/slider.js"></script>
+  <script src="./assets/script/accordion.js"></script>
 </body>
 
 </html>
