@@ -6,11 +6,13 @@
 # Author URI: https://themeforest.net
 # Description: EximX HTML Template
 ============================================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
 @import "tailwindcss";
 
 @import "swiper/css/bundle";
 @import "./plugins/odometer.css";
+@import "@phosphor-icons/web/light";
+@import "@phosphor-icons/web/bold";
 
 @font-face {
   font-family: "Satoshi";
@@ -43,10 +45,12 @@
   /* colors theme */
   --color-n20: #f7f7f8;
   --color-n500: #4d4e56;
-  --color-secondary: #EF620F;
-  --color-secondary2: #FFAB00;
-  --color-secondary3: #11403F;
-  --color-primary: #1878F2;
+  --color-secondary: #ef620f;
+  --color-secondary2: #ffab00;
+  --color-secondary3: #11403f;
+  --color-primary: #1878f2;
+  --color-neutral: #031935;
+  --color-neutral400: #4f586d;
   --color-bgColor: #f4ebe2;
 
   --color-black: #000f14;
@@ -83,7 +87,7 @@ html {
 }
 
 body {
-  @apply font-poppins text-black;
+  @apply font-alexandria text-black;
 }
 
 button {
@@ -178,11 +182,11 @@ p {
 /* Button Styles */
 
 .btn-primary {
-  @apply bg-secondary hover:bg-primary rounded-xl px-4 py-2 text-sm text-white duration-300 hover:text-black sm:rounded-2xl sm:px-6 sm:py-3 sm:text-base xl:text-lg;
+  @apply bg-secondary rounded-full px-4 py-2 text-sm text-white duration-300 max-sm:text-sm sm:text-base lg:px-7 lg:py-3;
 }
 
 .btn-secondary {
-  @apply bg-primary hover:bg-secondary rounded-xl px-4 py-2 duration-300 max-sm:text-sm lg:px-6 lg:py-3 lg:text-lg;
+  @apply bg-primary rounded-full px-4 py-2 text-white duration-300 max-sm:text-sm lg:px-7 lg:py-3;
 }
 
 /* Header Styles */

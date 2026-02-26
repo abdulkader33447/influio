@@ -1,5 +1,5 @@
 {
-  "name": "esimx",
+  "name": "influio",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     ]
   },
   "dependencies": {
+    "@phosphor-icons/web": "^2.1.2",
     "@tailwindcss/postcss": "^4.1.11",
     "@yaireo/ui-range": "^2.1.15",
     "aos": "^2.3.4",
